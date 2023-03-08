@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+html { 
+    background: url("./img/df2fd8f8544e3ecdb11277dc1b629280.webp") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.wrapper{
+    text-align:center;
+}
+h1{
+    font-size:7em;
+    font-family: 'Arvo', serif;
+    font-weight:lighter;
+    margin-bottom:0;
+    border:solid;
+    border-color:black;
+    background-color:rgba(0,0,0,.4);
+}
+.start{
+    font-size:4em;
+    margin:100px;
+    border-radius:15px;
+    color:rgb(146, 142, 142);
+    background-color: rgba(0,0,0,0);
+}
+.start:hover{
+    background-color:#7777;
+    cursor:pointer;
+}
+.d-none{
+    display:none;
+}
+.word{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.underscore{
+    font-size: 5em;
+    padding:1rem;
+    margin-bottom:20px;
+
+}
+.placeholder{
+    margin:50px;
+    max-width:250px;
+    min-width:250px;
+    height:auto;  
+}
+.game{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.over{
+    font-size:2em;
+    
+}
+.used-letters{
+    border:solid;
+    margin: 50px auto;
+    min-width:400px;
+}
